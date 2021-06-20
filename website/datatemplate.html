@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<title>Температура на $DATE</title>
+	<meta name="description" content="Температура на $DATE">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text y=%22.9em%22 font-size=%2290%22&gt;%E2%9D%84%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
+	<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+	<main>
+		<header>
+			<h1>
+				Температура на $DATE
+			</h1>
+			<hr>
+		</header>
+		<p><img src="../plot/$DATE.svg" /></p>
+		<div style="overflow-x:auto;">
+	<table width="100%">
+<tr> <th><p class="tab">Температура,<br><sup>o</sup>C</p></th> <th><p class="tab">Время</p></th><th><p class="tab">ISO-timestamp</p></th></tr>
+<!--marker1-->
+
+	</table>
+	</div>
+	<section>
+	<hr>
+	<p>Температура на $DATE</p>
+	<p>Минимальная температура: $MIN <sup>o</sup>C</p>
+	<p>Максимальная температура: $MAX <sup>o</sup>C</p>
+	<p>Средняя температура: $MEAN <sup>o</sup>C</p>
+	<p>Время соединения: $ONLINE</p>
+	</section>
+	</main>
+</body>
+
